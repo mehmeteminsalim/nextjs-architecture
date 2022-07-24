@@ -1,25 +1,23 @@
-# Redux Toolkit TypeScript Example
+# TODO
 
-This example shows how to integrate Next.js with [Redux Toolkit](https://redux-toolkit.js.org).
+- [x] Aliases Eklenecek
+- [ ] Merkezi Api Call Eklenecek
+- [ ] Login Proccess
+- [ ] Reusable Form Componentler Oluşturulacak
+- [ ] TailwindCss Eklenecek
+- [ ] Yetkilendirme İşlemleri (Component ve Api Call tarafında)
+- [ ] IsUserAccess Hook
+- [ ] Prod için log Disable İşelemi
 
-The **Redux Toolkit** is a standardized way to write Redux logic (create actions and reducers, setup the store with some default middlewares like redux devtools extension). This example demonstrates each of these features with Next.js
+# Eklenenler
 
-## Deploy your own
+> Aliasses
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example):
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-redux&project-name=with-redux&repository-name=with-redux)
-
-## How to use
-
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init), [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/), or [pnpm](https://pnpm.io) to bootstrap the example:
-
-```bash
-npx create-next-app --example with-redux with-redux-app
-# or
-yarn create next-app --example with-redux with-redux-app
-# or
-pnpm create next-app --example with-redux with-redux-app
+```json
+{
+  "@Components": "src/components",
+  "@Pages": "src/pages",
+  "@Hooks": "src/hooks",
+  "@Utils": "src/utils"
+}
 ```
-
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).

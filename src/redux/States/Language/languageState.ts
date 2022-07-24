@@ -1,9 +1,11 @@
 import { createSlice } from "@reduxjs/toolkit";
 import { LanguageState } from "./languageStateModel";
 
+const initialState = { lang: "en" } as LanguageState;
+
 export const languageSlice = createSlice({
   name: "language",
-  initialState: { lang: "en" } as LanguageState,
+  initialState: initialState,
   reducers: {
     fetchLanguage: () => {},
     updateLanguage: (state, action) => {
